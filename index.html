@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>je suis le site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <a class="acceuiel" href="./index.html">Acceueil</a>
+        <a href="./index2.html">About</a>
+      </nav>
+    </header>
+    <section class="section1">
+      <div class="premire-section">
+        <h1>Booste ta carrière</h1>
+        <p id="paragraph1">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+          temporibus accusamus omnis? Nulla, magni sed consequatur beatae,
+          distinctio dolore laudantium laborum odit animi fugiat voluptatibus
+          dolorum id nam impedit explicabo!
+        </p>
+        <button id="button-rouge" class="inscrire">Texte en Rouge</button>
+        <button id="button-noir" class="inscrire">Texte en Noir</button>
+      </div>
+    </section>
+    <section>
+      <div class="section3">
+        <p>Nous avons</p>
+      </div>
+      <div class="list">
+        <li>lorem</li>
+        <li>lorem</li>
+        <li>lorem</li>
+        <li>lorem</li>
+      </div>
+    </section>
+    <section>
+      <img class="image" src="./visite.jpg" />
+    </section>
+    <footer>
+      <div class="footer">
+        <p>copyriting Kinshasa digital academy</p>
+      </div>
+    </footer>
+    <script>
+      let par = document.getElementById("paragraph1");
+      let buttonRouge = document.getElementById("button-rouge");
+      buttonRouge.addEventListener("click", function () {
+        par.style.color = "green";
+      });
+
+      let buttonNoir = document.getElementById("button-noir");
+      buttonNoir.addEventListener("click", function () {
+        par.style.color = "black";
+      });
+    </script>
+  </body>
+</html>

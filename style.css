@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+}
+
+.nav-bar {
+  text-align: right;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.acceuiel {
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  cursor: pointer;
+  color: brown;
+  text-decoration: underline;
+}
+
+.premire-section {
+  background-color: brown;
+  color: blanchedalmond;
+  text-align: left;
+  padding: 50px;
+}
+.inscrire .button-rouge .button-noir {
+  width: 80px;
+  height: 40px;
+  padding: 50px;
+
+  font-weight: bold;
+  background: blanchedalmond;
+  border: none;
+}
+.inscrire:hover {
+  background: brown;
+  border: solid 2px blanchedalmond;
+  cursor: pointer;
+  color: blanchedalmond;
+}
+.image {
+  width: 100%;
+}
+.section3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 40px;
+  color: brown;
+}
+.list {
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.footer {
+  background: brown;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 20px;
+}
